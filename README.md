@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repositorio git hub](https://github.com/TomasRivetta/Blog-preview-card-FM)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site git hub](https://tomasrivetta.github.io/Blog-preview-card-FM/)
 
 ## My process
 
