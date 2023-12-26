@@ -21,6 +21,9 @@ main{
 .card-section_main{
     padding: 3%;
     width: 360px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
 }
 
 .card-seccion__image{
@@ -29,8 +32,37 @@ main{
     border-radius: 4%;
 }
 
-.card-section--text-information{
-    text-wrap: balance;
+.card-seccion__topic{
+    background-color: var(--yellow);
+    width: 25%;
+    border-radius: 6px;
+    text-align: center;
+    margin: 2% 0 1%;
+}
+
+.card-seccion__topic-text{
+    padding: 9%;
+    font-weight: 800;
+}
+
+.card-seccion__date-text{
+    font-weight: var(--font-weight-XL);
+    margin-bottom: 2%;
+}
+
+.card-seccion__title-text{
+    margin-bottom: 3%;
+}
+
+.card-seccion__title-text:hover{
+    color: var(--yellow);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.card-section__text-information{
+    opacity: 50%;
+    margin-bottom: 2%;
 }
 
 .card-section__person{
@@ -40,7 +72,7 @@ main{
 
 .card-section__person--name{
     margin-left: 3%;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .attribution{
