@@ -1,0 +1,49 @@
+body{
+    background-color: var(--yellow);
+    font-family: figtree;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 120vh;
+}
+
+.card-main{
+    background-color: var(--white);
+    border: 1px solid black;
+    border-radius: 4%;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.card-section_main{
+    padding: 3%;
+    width: 360px;
+}
+
+.card-seccion__image{
+    width: auto;
+    height: auto;
+    border-radius: 4%;
+}
+
+.card-section--text-information{
+    text-wrap: balance;
+}
+
+.card-section__person{
+    display: flex;
+    align-items: center;
+}
+
+.card-section__person--name{
+    margin-left: 3%;
+    font-weight: 600;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+}
