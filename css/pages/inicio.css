@@ -1,6 +1,7 @@
 body{
     background-color: var(--yellow);
     font-family: figtree;
+    max-width:  1440px;
 }
 
 main{
@@ -15,7 +16,7 @@ main{
     background-color: var(--white);
     border: 1px solid black;
     border-radius: 4%;
-    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px 0px rgb(0,0,0);
 }
 
 .card-section_main{
@@ -27,8 +28,7 @@ main{
 }
 
 .card-seccion__image{
-    width: auto;
-    height: auto;
+    padding: auto;
     border-radius: 4%;
 }
 
@@ -70,12 +70,24 @@ main{
     align-items: center;
 }
 
+.card-section__person--image{
+    width: 65%;
+}
+
 .card-section__person--name{
-    margin-left: 3%;
     font-weight: 800;
 }
+
 
 .attribution{
     display: flex;
     justify-content: center;
+    text-wrap: wrap;
+}
+
+@media only screen and (max-width: 375px){
+    .card-section_main{
+        width: auto;
+    }
+    
 }
