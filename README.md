@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Repositorio git hub](https://github.com/TomasRivetta/Blog-preview-card-FM)
+- Solution URL: [Repository git hub](https://github.com/TomasRivetta/Blog-preview-card-FM)
 - Live Site URL: [Site git hub](https://tomasrivetta.github.io/Blog-preview-card-FM/)
 
 ## My process
@@ -36,7 +36,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
