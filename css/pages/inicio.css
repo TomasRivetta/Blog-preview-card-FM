@@ -9,7 +9,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 120vh;
+    min-height: 93vh;
 }
 
 .card-main{
@@ -53,6 +53,7 @@ main{
 
 .card-seccion__title-text{
     margin-bottom: 3%;
+    font-size: 25px;
 }
 
 .card-seccion__title-text:hover{
