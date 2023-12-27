@@ -20,7 +20,7 @@ main{
 }
 
 .card-section_main{
-    padding: 3%;
+    padding: 5%;
     width: 360px;
     flex-direction: column;
     display: flex;
