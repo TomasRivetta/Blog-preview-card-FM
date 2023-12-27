@@ -81,6 +81,7 @@ main{
 
 
 .attribution{
+    text-align: center;
     display: flex;
     justify-content: center;
     text-wrap: wrap;
