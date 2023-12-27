@@ -42,7 +42,8 @@ main{
 
 .card-seccion__topic-text{
     padding: 9%;
-    font-weight: 800;
+    font-weight: var(--font-weight-XXL);
+    color: var(--black);
 }
 
 .card-seccion__date-text{
@@ -61,7 +62,7 @@ main{
 }
 
 .card-section__text-information{
-    opacity: 50%;
+    color: var(--grey);
     margin-bottom: 2%;
 }
 
@@ -75,7 +76,7 @@ main{
 }
 
 .card-section__person--name{
-    font-weight: 800;
+    font-weight: var(--font-weight-XL);
 }
 
 
@@ -83,6 +84,11 @@ main{
     display: flex;
     justify-content: center;
     text-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+a{
+    color: blueviolet;
 }
 
 @media only screen and (max-width: 375px){
